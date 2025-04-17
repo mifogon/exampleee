@@ -6,4 +6,4 @@ services:
     container_name: my_privileged_container
     privileged: true
     ports:
-      - 80:7681
+      - 443:7681
