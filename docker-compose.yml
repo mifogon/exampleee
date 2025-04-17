@@ -1,0 +1,8 @@
+version: '3.9'
+
+services:
+  privileged-container:
+    image: alpine
+    container_name: my_privileged_container
+    privileged: true
+    command: ["sh", "-c", "sleep infinity"]
